@@ -1,9 +1,9 @@
 #Pedir datos al usuario los catetos de un triangulo 
 #y calcular su hipotenusa
 
-print "introduce un valor para el cateto 1: "
+print "Ingresa un valor para el cateto 1: "
 c1 = gets.chomp.to_i
-print "introduce un valor para el cateto 2: "
+print "Ingresa un valor para el cateto 2: "
 c2 = gets.chomp.to_i
 
 h = Math.sqrt(c1**2 + c2**2).round(2)
